@@ -49,3 +49,6 @@ hidecaption
 
 Shortcodes are non-standard markup that appears within normal Markdown.
 
+[Contact us]({{< relref "contact/index.md" >}}) if you have any questions.
+
+Shortcodes are non-standard markup that appears within normal Markdown.
