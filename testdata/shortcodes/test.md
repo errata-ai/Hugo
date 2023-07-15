@@ -52,3 +52,11 @@ Shortcodes are non-standard markup that appears within normal Markdown.
 [Contact us]({{< relref "contact/index.md" >}}) if you have any questions.
 
 Shortcodes are non-standard markup that appears within normal Markdown.
+
+- {{< myshortcode src="/media/spf13.jpg" title="Steve Francia" >}}
+
+Shortcodes are non-standard markup that appears within normal Markdown.
+
+Shortcodes can be used {{< myshortcode src="/media/spf13.jpg" title="Steve Francia" >}} inside a paragraph.
+
+Shortcodes are non-standard markup that appears within normal Markdown.
