@@ -64,6 +64,7 @@ Shortcodes are non-standard markup that appears within normal Markdown.
 To escape shortcodes, use the Hugo comment syntax.
 For example:
 
-- {{</* myshortcode */>}}
-- {{%/* myshortcode */%}}
-- {{%/* /myshortcode */%}}
+- {{</* commentedoutshortcode */>}}
+- {{</* /closecommentedoutshortcode */>}}
+- {{%/* commentedoutshortcodemd */%}}
+- {{%/* /closecommentedoutshortcodemd */%}}
