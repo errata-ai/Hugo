@@ -27,8 +27,9 @@ jobs:
       - run:
           name: Fetch Vale
           command: |
-            go install github.com/errata-ai/vale/v2/cmd/vale@cd147755b9fc6cf7d9ca1a70f4f75c633beeaf17
-            echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> $BASH_ENV
+            wget https://github.com/errata-ai/vale/releases/download/v3.0.5/vale_3.0.5_Linux_64-bit.tar.gz
+            mkdir bin && tar -xvzf vale_3.0.5_Linux_64-bit.tar.gz -C bin
+            echo 'PATH=./bin:"$PATH"' >> $BASH_ENV
       - save_cache:
           key: go-mod-v4-{{ checksum "go.sum" }}
           paths:
