@@ -60,3 +60,11 @@ Shortcodes are non-standard markup that appears within normal Markdown.
 Shortcodes can be used {{< myshortcode src="/media/spf13.jpg" title="Steve Francia" >}} inside a paragraph.
 
 Shortcodes are non-standard markup that appears within normal Markdown.
+
+To escape shortcodes, use the Hugo comment syntax.
+For example:
+
+- {{</* commentedoutshortcode */>}}
+- {{</* /closecommentedoutshortcode */>}}
+- {{%/* commentedoutshortcodemd */%}}
+- {{%/* /closecommentedoutshortcodemd */%}}
