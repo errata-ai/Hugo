@@ -11,12 +11,12 @@ Shortcodes are non-standard markup that appears within normal Markdown.
 
 Shortcodes are non-standard markup that appears within normal Markdown.
 
-{{<  myshortcode This is some <b>HTML</b>,
+{{< myshortcode This is some <b>HTML</b>,
 and a new line with a "quoted string". >}}
 
 Shortcodes are non-standard markup that appears within normal Markdown.
 
-{{<  myshortcode This is some <b>HTML</b>,. >}}
+{{< myshortcode This is some <b>HTML</b>,. >}}
 
 Shortcodes are non-standard markup that appears within normal Markdown.
 
