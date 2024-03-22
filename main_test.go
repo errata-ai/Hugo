@@ -36,7 +36,7 @@ func Test(t *testing.T) {
 
 	path, err := exec.LookPath("vale")
 	if err != nil {
-		t.Fatal(err)
+		path = "./bin/vale"
 	}
 
 	ts.Commands["vale"] = cmdtest.Program(path)
